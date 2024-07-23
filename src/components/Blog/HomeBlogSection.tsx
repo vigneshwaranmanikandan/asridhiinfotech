@@ -9,7 +9,7 @@ const HomeBlogSection = ({ posts }: any) => {
           <SectionTitle
             subtitle="Our Blogs"
             title="Our Recent News"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Recent Blogs of our Staffing Agency"
             width="640px"
             center
           />

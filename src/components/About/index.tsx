@@ -13,7 +13,7 @@ const About = () => {
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
             <div className="mb-12 max-w-[540px] lg:mb-0">
-            <h2 className="mt-5 mb-5 text-4xl font-bold leading-tight text-blue-800 dark:text-white sm:text-[40px] sm:leading-[1.2]">
+            <h2 className="mt-5 mb-5 text-4xl font-bold leading-tight text-black dark:text-white sm:text-[40px] sm:leading-[1.2]">
                 About Us
               </h2>
               
@@ -54,7 +54,7 @@ const About = () => {
                   />
                 </div>
 
-                <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
+                <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-gray-600 px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
                   <div>
                     <span className="block text-5xl font-extrabold text-white">
                      Destination of Trust

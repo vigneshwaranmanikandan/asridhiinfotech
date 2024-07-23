@@ -20,18 +20,23 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
         </Link>
       </div>
       <div>
-        <span className="mb-5 inline-block rounded bg-primary px-4 py-1 text-center text-xs font-semibold leading-loose text-white">
+        <span className="mb-5 inline-block rounded bg-gray-600 px-4 py-1 text-center text-xs font-semibold leading-loose text-white">
           {format(new Date(date), "dd MMM yyyy")}
         </span>
         <h3>
           <Link
             href={`/blogs/${slug}`}
-            className="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
+            className="mb-4 inline-block text-xl font-semibold text-dark hover:text-gray-600 dark:text-white dark:hover:text-gray-600 sm:text-2xl lg:text-xl xl:text-2xl"
           >
             {title}
           </Link>
         </h3>
         <p className="text-base text-body-color dark:text-dark-6">{excerpt}</p>
+      </div>
+      <div className="mt-4">
+        <p className="text-sm text-gray-600 dark:text-dark-6">
+          Our staffing agency excels in connecting businesses with top-tier talent, ensuring you have the right people to drive your success. Explore our blog for insights and updates on industry trends, hiring best practices, and how we can help you achieve your goals.
+        </p>
       </div>
     </div>
   );

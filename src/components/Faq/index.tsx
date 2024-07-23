@@ -8,7 +8,7 @@ const Faq = () => {
         <SectionTitle
           subtitle="FAQ"
           title="Any Questions? Answered"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Welcome to the FAQ section of Asridhi Infotech, where we provide answers to common questions about our staffing and recruiting services. Whether you're a client looking to hire top talent or a candidate seeking new career opportunities, we aim to provide clarity and assistance through these FAQs."
           width="640px"
           center
         />
@@ -16,31 +16,31 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What industries does Asridhi Infotech specialize in staffing?"
+              answer="Asridhi Infotech specializes in staffing for industries such as IT, healthcare, finance, engineering, and more. Our extensive industry expertise allows us to match the right candidates with the right roles effectively."
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question=" How does Asridhi Infotech's recruitment process work?"
+              answer="Our recruitment process begins with understanding your specific staffing needs. We then conduct job profiling, candidate sourcing, rigorous screening, interviews, and finalize placements that align with your requirements."
             />
             <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What types of positions does Asridhi Infotech typically fill?"
+              answer="We cater to both temporary and permanent staffing needs across various levels, including entry-level, mid-level, and executive positions. Our goal is to ensure a perfect fit between candidates and client organizations."
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What criteria does Asridhi Infotech use to select candidates?"
+              answer="We employ a thorough selection process involving skills assessments, behavioral interviews, reference checks, and background screenings. We prioritize candidates who not only meet technical requirements but also align with your company culture."
             />
             <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What are the fees for Asridhi Infotech's staffing services?"
+              answer="Our fees are competitive and vary based on the complexity and duration of the assignment. We provide transparent fee structures and can offer personalized quotes based on your specific staffing needs."
             />
             <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="How can I engage Asridhi Infotech's staffing services?"
+              answer="Engaging with Asridhi Infotech is simple! You can start by filling out our online contact form or reaching out to us directly via phone. Our experienced recruiters will guide you through the process and assist with your staffing requirements."
             />
           </div>
         </div>
